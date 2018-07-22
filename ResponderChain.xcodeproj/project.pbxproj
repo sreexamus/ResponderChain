@@ -12,6 +12,9 @@
 		94E3761A210418C300233703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E37618210418C300233703 /* Main.storyboard */; };
 		94E3761C210418C500233703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E3761B210418C500233703 /* Assets.xcassets */; };
 		94E3761F210418C500233703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E3761D210418C500233703 /* LaunchScreen.storyboard */; };
+		94E3762721041ACA00233703 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E3762621041ACA00233703 /* FirstView.swift */; };
+		94E376292104210800233703 /* FirstButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E376282104210800233703 /* FirstButton.swift */; };
+		94E3762B2104CCEA00233703 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94E3762A2104CCEA00233703 /* Readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		94E3761B210418C500233703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E3761E210418C500233703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94E37620210418C500233703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E3762621041ACA00233703 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		94E376282104210800233703 /* FirstButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstButton.swift; sourceTree = "<group>"; };
+		94E3762A2104CCEA00233703 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				94E3761B210418C500233703 /* Assets.xcassets */,
 				94E3761D210418C500233703 /* LaunchScreen.storyboard */,
 				94E37620210418C500233703 /* Info.plist */,
+				94E3762621041ACA00233703 /* FirstView.swift */,
+				94E376282104210800233703 /* FirstButton.swift */,
+				94E3762A2104CCEA00233703 /* Readme.txt */,
 			);
 			path = ResponderChain;
 			sourceTree = "<group>";
@@ -124,6 +133,7 @@
 			files = (
 				94E3761F210418C500233703 /* LaunchScreen.storyboard in Resources */,
 				94E3761C210418C500233703 /* Assets.xcassets in Resources */,
+				94E3762B2104CCEA00233703 /* Readme.txt in Resources */,
 				94E3761A210418C300233703 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E376292104210800233703 /* FirstButton.swift in Sources */,
 				94E37617210418C300233703 /* ViewController.swift in Sources */,
+				94E3762721041ACA00233703 /* FirstView.swift in Sources */,
 				94E37615210418C300233703 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

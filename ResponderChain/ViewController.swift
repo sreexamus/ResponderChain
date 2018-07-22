@@ -9,10 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var firstView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        firstView.isUserInteractionEnabled = true
+        let gesture = UITapGestureRecognizer(target: self, action:  #selector(self.checkAction))
+        firstView.addGestureRecognizer(gesture)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +24,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @objc func checkAction(sender : UITapGestureRecognizer) {
+        print("view clicked")
+    }
 
 }
 
